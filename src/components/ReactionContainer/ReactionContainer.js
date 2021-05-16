@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import { FlatList } from 'react-native';
-import { Card } from 'react-native-paper';
 
+import { Card } from 'react-native-paper';
+import { FlatList } from 'react-native';
 import Reaction from './Reaction';
 import styles from './styles';
+
 export default class ReactionContainer extends Component {
     constructor(props) {
         super(props);

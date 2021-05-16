@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
+
 import { FlatList } from 'react-native';
 import UserItem from './UserItem';
-
 import { users } from '../../assets/fake_data';
 
 export default class ActiveList extends Component {

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { View } from 'react-native';
+
 import ChatMessenger from 'src/components/react-native-messenger';
+import { View } from 'react-native';
 
 export default class ChatScreen extends Component {
     onBackPress = () => {

@@ -1,71 +1,71 @@
-import { StyleSheet } from 'react-native';
 import AppStyles from 'src/config/styles';
+import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
-    listTopView: {
-        flexDirection: 'row',
-        justifyContent: 'space-between',
-        alignItems: 'center',
-        padding: 8,
-        paddingHorizontal: 12
+    absoluteView: {
+        backgroundColor: AppStyles.colors.white,
+        borderColor: AppStyles.colors.white,
+        borderRadius: 16,
+        borderWidth: 1,
+        bottom: -4,
+        position: 'absolute',
+        right: -2
     },
     active: {
+        color: AppStyles.colors.grey,
         fontSize: 14,
-        fontWeight: 'bold',
-        color: AppStyles.colors.grey
+        fontWeight: 'bold'
     },
-    watchAll: {
-        fontSize: 14,
-        fontWeight: 'bold',
-        color: AppStyles.colors.accentColor
+    headSub: {
+        alignItems: 'center',
+        backgroundColor: AppStyles.colors.grey,
+        borderRadius: 24,
+        height: 48,
+        justifyContent: 'center',
+        margin: 4,
+        width: 48
+    },
+    headText: {
+        fontSize: 12,
+        textAlign: 'center',
+        width: 64
     },
     headView: {
         alignItems: 'center',
         marginHorizontal: 4
     },
-    headSub: {
-        width: 48,
-        height: 48,
-        borderRadius: 24,
-        margin: 4,
-        backgroundColor: AppStyles.colors.grey,
-        justifyContent: 'center',
-        alignItems: 'center'
-    },
-    headText: {
-        fontSize: 12,
-        width: 64,
-        textAlign: 'center'
-    },
-    absoluteView: {
-        position: 'absolute',
-        bottom: -4,
-        right: -2,
-        borderRadius: 16,
-        borderWidth: 1,
-        borderColor: AppStyles.colors.white,
-        backgroundColor: AppStyles.colors.white
-    },
     itemView: {
-        margin: 4,
-        justifyContent: 'center',
-        alignItems: 'center'
-    },
-    nameView: {
-        flexDirection: 'row',
         alignItems: 'center',
-        marginTop: 10,
-        paddingHorizontal: 4
+        justifyContent: 'center',
+        margin: 4
+    },
+    listTopView: {
+        alignItems: 'center',
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        padding: 8,
+        paddingHorizontal: 12
     },
     nameText: {
         fontSize: 12
     },
+    nameView: {
+        alignItems: 'center',
+        flexDirection: 'row',
+        marginTop: 10,
+        paddingHorizontal: 4
+    },
     onlineDot: {
-        width: 10,
-        height: 10,
+        backgroundColor: AppStyles.colors.onlineGreen,
         borderRadius: 5,
+        height: 10,
         marginRight: 4,
-        backgroundColor: AppStyles.colors.onlineGreen
+        width: 10
+    },
+    watchAll: {
+        color: AppStyles.colors.accentColor,
+        fontSize: 14,
+        fontWeight: 'bold'
     }
 });
 

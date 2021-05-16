@@ -1,11 +1,12 @@
+import { Image, View } from 'react-native';
 import React, { Component } from 'react';
-import { View, Image } from 'react-native';
-import { TouchableRipple, Text } from 'react-native-paper';
-import _ from 'lodash';
+import { Text, TouchableRipple } from 'react-native-paper';
+
 import Avatar from '../Avatar';
 import Images from 'src/config/images';
-import styles from './styles';
 import PropTypes from 'prop-types';
+import _ from 'lodash';
+import styles from './styles';
 
 export default class UserItem extends Component {
     shouldComponentUpdate(nextProps) {

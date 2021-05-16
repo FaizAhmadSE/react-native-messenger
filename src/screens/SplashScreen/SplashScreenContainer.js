@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 import SplashScreen from './SplashScreen';
 import { connect } from 'react-redux';
 

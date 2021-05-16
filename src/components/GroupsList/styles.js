@@ -1,53 +1,53 @@
-import { StyleSheet } from 'react-native';
 import AppStyles from 'src/config/styles';
 import Metrics from 'src/config/metrics';
+import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
     card: {
-        width: Metrics.screenWidth / 2.5,
         height: Metrics.screenHeight / 3.6,
-        margin: 5
+        margin: 5,
+        width: Metrics.screenWidth / 2.5
     },
     cardView: {
-        width: Metrics.screenWidth / 2.5,
+        alignItems: 'center',
         height: Metrics.screenHeight / 3.6,
         justifyContent: 'space-between',
-        alignItems: 'center'
+        width: Metrics.screenWidth / 2.5
     },
     footer: {
-        width: Metrics.screenWidth / 2.5 - 16,
-        paddingVertical: 22,
         alignItems: 'center',
+        borderTopColor: AppStyles.colors.separator,
         borderTopWidth: StyleSheet.hairlineWidth,
-        borderTopColor: AppStyles.colors.separator
-    },
-    nameView: {
-        alignItems: 'center',
-        padding: 8,
-        paddingTop: 16
-    },
-    nameText: {
-        marginTop: 8,
-        color: AppStyles.colors.black,
-        fontSize: 15,
-        textAlign: 'center'
+        paddingVertical: 22,
+        width: Metrics.screenWidth / 2.5 - 16
     },
     last: {
-        marginTop: 4,
         color: AppStyles.colors.grey,
         fontSize: 12,
+        marginTop: 4,
         textAlign: 'center'
+    },
+    list: {
+        alignItems: 'center',
+        flexDirection: 'row',
+        flexWrap: 'wrap',
+        justifyContent: 'center'
     },
     members: {
         color: AppStyles.colors.grey,
         fontSize: 12,
         textAlign: 'center'
     },
-    list: {
-        flexDirection: 'row',
-        flexWrap: 'wrap',
-        justifyContent: 'center',
-        alignItems: 'center'
+    nameText: {
+        color: AppStyles.colors.black,
+        fontSize: 15,
+        marginTop: 8,
+        textAlign: 'center'
+    },
+    nameView: {
+        alignItems: 'center',
+        padding: 8,
+        paddingTop: 16
     }
 });
 

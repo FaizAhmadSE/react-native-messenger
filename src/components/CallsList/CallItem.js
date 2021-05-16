@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import { View } from 'react-native';
-import { TouchableRipple, Text } from 'react-native-paper';
-import Icon from 'react-native-vector-icons/MaterialIcons';
-import Avatar from '../Avatar/Avatar';
-import AppStyles from 'src/config/styles';
-import PropTypes from 'prop-types';
+import { Text, TouchableRipple } from 'react-native-paper';
 
+import AppStyles from 'src/config/styles';
+import Avatar from '../Avatar/Avatar';
+import Icon from 'react-native-vector-icons/MaterialIcons';
+import PropTypes from 'prop-types';
+import { View } from 'react-native';
 import styles from './styles';
 
 export default class CallItem extends Component {

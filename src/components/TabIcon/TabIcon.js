@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import { View } from 'react-native';
-import Icon from 'react-native-vector-icons/MaterialIcons';
-import EntypoIcon from 'react-native-vector-icons/Entypo';
+
 import AppStyles from 'src/config/styles';
+import EntypoIcon from 'react-native-vector-icons/Entypo';
+import Icon from 'react-native-vector-icons/MaterialIcons';
 import PropTypes from 'prop-types';
+import { View } from 'react-native';
 import styles from './styles';
 
 export default class TabIcon extends Component {

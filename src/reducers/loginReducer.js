@@ -1,8 +1,9 @@
+import * as actionTypes from 'src/actions/actionTypes';
+
 /* Login Reducer
  * handles login states in the app
  */
 import createReducer from 'src/lib/createReducer';
-import * as actionTypes from 'src/actions/actionTypes';
 
 const initialState = {
     isLoggedIn: false,

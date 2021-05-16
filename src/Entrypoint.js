@@ -1,10 +1,12 @@
-import React, { Component } from 'react';
-import { Provider } from 'react-redux';
-import { PersistGate } from 'redux-persist/es/integration/react';
-import NavigationStack from 'src/navigation';
-import configureStore from 'src/store/configureStore';
-const { persistor, store } = configureStore();
 import { DefaultTheme, Provider as PaperProvider } from 'react-native-paper';
+import React, { Component } from 'react';
+
+import NavigationStack from 'src/navigation';
+import { PersistGate } from 'redux-persist/es/integration/react';
+import { Provider } from 'react-redux';
+import configureStore from 'src/store/configureStore';
+
+const { persistor, store } = configureStore();
 
 const theme = {
     ...DefaultTheme,

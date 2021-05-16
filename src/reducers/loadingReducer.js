@@ -1,5 +1,6 @@
-import createReducer from 'src/lib/createReducer';
 import * as actionTypes from 'src/actions/actionTypes';
+
+import createReducer from 'src/lib/createReducer';
 
 const initialState = {
     isLoginLoading: false

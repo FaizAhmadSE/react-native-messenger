@@ -1,10 +1,10 @@
-import { StyleSheet } from 'react-native';
 import AppStyles from 'src/config/styles';
+import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
     container: {
-        flex: 1,
-        backgroundColor: AppStyles.colors.lightWhite
+        backgroundColor: AppStyles.colors.lightWhite,
+        flex: 1
     }
 });
 

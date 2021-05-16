@@ -1,13 +1,11 @@
-import React, { Component } from 'react';
 import { FlatList, View } from 'react-native';
-import { Text } from 'react-native-paper';
+import React, { Component } from 'react';
 
 import Icon from 'react-native-vector-icons/MaterialIcons';
-import { TouchableRipple } from 'react-native-paper';
-
 import StatusItem from './StatusItem';
+import { Text } from 'react-native-paper';
+import { TouchableRipple } from 'react-native-paper';
 import styles from './styles';
-
 import { users } from '../../assets/fake_data';
 
 export default class componentName extends Component {

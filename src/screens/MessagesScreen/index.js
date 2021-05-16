@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import { View } from 'react-native';
+
 import { Button } from 'react-native-paper';
 import PropTypes from 'prop-types';
-
 import StatusList from 'src/components/StatusList';
-
+import { View } from 'react-native';
 import styles from './styles';
 
 export default class MessagesScreen extends Component {

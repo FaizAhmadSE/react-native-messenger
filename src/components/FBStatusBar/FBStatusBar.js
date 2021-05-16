@@ -2,10 +2,11 @@
  * only works/needed on Android
  */
 
-import React from 'react';
-import { View, StatusBar } from 'react-native';
-import styles from './styles';
+import { StatusBar, View } from 'react-native';
+
 import PropTypes from 'prop-types';
+import React from 'react';
+import styles from './styles';
 
 const FBStatusBar = props => {
     return (

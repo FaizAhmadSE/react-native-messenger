@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import { SectionList, View } from 'react-native';
 import { Text, TouchableRipple } from 'react-native-paper';
-import Icon from 'react-native-vector-icons/MaterialIcons';
 
-import CallItem from './CallItem';
 import AppStyles from 'src/config/styles';
-
-import { users } from '../../assets/fake_data';
+import CallItem from './CallItem';
+import Icon from 'react-native-vector-icons/MaterialIcons';
 import styles from './styles';
+import { users } from '../../assets/fake_data';
 
 export default class CallsList extends Component {
     renderItem = ({ item }) => {

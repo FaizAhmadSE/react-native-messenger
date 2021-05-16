@@ -1,13 +1,14 @@
-import React, { Component } from 'react';
 import {
-    View,
+    Keyboard,
     Platform,
     TouchableWithoutFeedback,
-    Keyboard
+    View
 } from 'react-native';
-import Toolbar from './Toolbar';
+import React, { Component } from 'react';
+
 import InputModule from './InputModule';
 import KeyboardSpacer from '../KeyboardSpacer';
+import Toolbar from './Toolbar';
 
 export default class Messenger extends Component {
     onBackPress = () => {

@@ -1,9 +1,10 @@
+import { Animated, Keyboard } from 'react-native';
 /* Used to manage keyboard spacing
  * NOTE: takes variance as optional prop to vary keyboard height if wanted.
  * View expands based on keyboard height.
  */
 import React, { Component } from 'react';
-import { Keyboard, Animated } from 'react-native';
+
 import PropTypes from 'prop-types';
 import styles from './styles';
 

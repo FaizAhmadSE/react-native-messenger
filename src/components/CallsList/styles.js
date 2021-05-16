@@ -1,45 +1,10 @@
-import { StyleSheet } from 'react-native';
 import AppStyles from 'src/config/styles';
+import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
-    item: {
-        flexDirection: 'row',
-        justifyContent: 'space-between',
-        paddingVertical: 8,
-        paddingHorizontal: 16
-    },
-    nameView: {
-        flex: 1,
-        paddingHorizontal: 8,
-        justifyContent: 'center'
-    },
-    head: {
-        fontSize: 16,
-        color: AppStyles.colors.black,
-        textAlign: 'left'
-    },
-    sub: {
-        color: AppStyles.colors.grey,
-        paddingTop: 4
-    },
-    icon: {
-        paddingHorizontal: 12,
-        justifyContent: 'center',
-        alignItems: 'center'
-    },
-    hView: {
-        backgroundColor: AppStyles.colors.lightWhite
-    },
-    header: {
-        fontSize: 14,
-        fontWeight: 'bold',
-        color: AppStyles.colors.grey,
-        paddingVertical: 12,
-        paddingHorizontal: 16
-    },
     groupView: {
-        flexDirection: 'row',
         alignItems: 'center',
+        flexDirection: 'row',
         paddingVertical: 12
     },
     grpIcn: {
@@ -47,6 +12,41 @@ const styles = StyleSheet.create({
     },
     grpText: {
         fontSize: 15
+    },
+    hView: {
+        backgroundColor: AppStyles.colors.lightWhite
+    },
+    head: {
+        color: AppStyles.colors.black,
+        fontSize: 16,
+        textAlign: 'left'
+    },
+    header: {
+        color: AppStyles.colors.grey,
+        fontSize: 14,
+        fontWeight: 'bold',
+        paddingHorizontal: 16,
+        paddingVertical: 12
+    },
+    icon: {
+        alignItems: 'center',
+        justifyContent: 'center',
+        paddingHorizontal: 12
+    },
+    item: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        paddingHorizontal: 16,
+        paddingVertical: 8
+    },
+    nameView: {
+        flex: 1,
+        justifyContent: 'center',
+        paddingHorizontal: 8
+    },
+    sub: {
+        color: AppStyles.colors.grey,
+        paddingTop: 4
     }
 });
 

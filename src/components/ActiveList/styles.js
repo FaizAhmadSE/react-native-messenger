@@ -2,23 +2,23 @@ import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
     item: {
+        alignItems: 'center',
         flexDirection: 'row',
         justifyContent: 'space-between',
-        alignItems: 'center',
         paddingLeft: 16,
         paddingRight: 12,
         paddingVertical: 8
     },
     userName: {
         flex: 1,
-        textAlign: 'left',
+        fontSize: 15,
         paddingLeft: 8,
-        fontSize: 15
+        textAlign: 'left'
     },
     wave: {
-        width: 28,
         height: 28,
-        resizeMode: 'contain'
+        resizeMode: 'contain',
+        width: 28
     }
 });
 

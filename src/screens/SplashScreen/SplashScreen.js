@@ -1,11 +1,11 @@
+import { AccessToken, LoginButton } from 'react-native-fbsdk';
 import React, { Component } from 'react';
-import { View } from 'react-native';
-import { SafeAreaView } from 'react-navigation';
-import { Button } from 'react-native-paper';
-import { LoginButton, AccessToken } from 'react-native-fbsdk';
 
-import styles from './styles';
+import { Button } from 'react-native-paper';
 import PropTypes from 'prop-types';
+import { SafeAreaView } from 'react-navigation';
+import { View } from 'react-native';
+import styles from './styles';
 
 export default class SplashScreen extends Component {
     onPress = () => {

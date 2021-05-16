@@ -1,5 +1,5 @@
-import { StyleSheet } from 'react-native';
 import Metrics from 'src/config/metrics';
+import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
     card: {
@@ -9,15 +9,15 @@ const styles = StyleSheet.create({
         overflow: 'visible'
     },
     reactView: {
-        width: (Metrics.screenWidth - 24) / 6,
+        alignItems: 'center',
         height: 58,
         justifyContent: 'center',
-        alignItems: 'center'
+        width: (Metrics.screenWidth - 24) / 6
     },
     reaction: {
-        width: 40,
         height: 40,
-        marginBottom: 4
+        marginBottom: 4,
+        width: 40
     }
 });
 

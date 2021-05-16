@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
-import { View, Platform, TouchableOpacity } from 'react-native';
-import { Text } from 'react-native-paper';
-import FBStatusBar from 'src/components/FBStatusBar';
-import styles from './styles';
-
 import { Appbar, Searchbar } from 'react-native-paper';
+import { Platform, TouchableOpacity, View } from 'react-native';
+import React, { Component } from 'react';
+
+import FBStatusBar from 'src/components/FBStatusBar';
+import { Text } from 'react-native-paper';
+import styles from './styles';
 
 export default class SearchHeader extends Component {
     state = {

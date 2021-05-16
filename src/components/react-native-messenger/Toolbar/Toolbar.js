@@ -1,8 +1,9 @@
-import React, { Component } from 'react';
-import { Platform, Image, StatusBar } from 'react-native';
 import { Appbar, withTheme } from 'react-native-paper';
-import styles from './styles';
+import { Image, Platform, StatusBar } from 'react-native';
+import React, { Component } from 'react';
+
 import PropTypes from 'prop-types';
+import styles from './styles';
 
 const STATUS_BAR_HEIGHT = Platform.OS === 'ios' ? 32 : StatusBar.currentHeight;
 

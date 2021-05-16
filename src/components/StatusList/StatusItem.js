@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import { View } from 'react-native';
-import { Text } from 'react-native-paper';
-import PropTypes from 'prop-types';
 
 import Avatar from '../Avatar';
+import PropTypes from 'prop-types';
+import { Text } from 'react-native-paper';
+import { View } from 'react-native';
 import styles from './styles';
+
 export default class StatusItem extends Component {
     render() {
         const { name, picture } = this.props.item;

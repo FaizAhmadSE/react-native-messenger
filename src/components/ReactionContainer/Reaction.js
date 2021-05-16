@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
 import { Animated, TouchableWithoutFeedback } from 'react-native';
+import React, { Component } from 'react';
 
 import LottieView from 'lottie-react-native/src/js';
 import PropTypes from 'prop-types';

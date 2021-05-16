@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
-import { View } from 'react-native';
 import { Card, Text } from 'react-native-paper';
+import React, { Component } from 'react';
 
 import Avatar from '../Avatar';
-import styles from './styles';
 import PropTypes from 'prop-types';
+import { View } from 'react-native';
+import styles from './styles';
 
 export default class GroupItem extends Component {
     onPress = () => {

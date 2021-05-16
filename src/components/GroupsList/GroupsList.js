@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 import { FlatList } from 'react-native';
 import GroupsItem from './GroupItem';
 import styles from './styles';
